@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-03T15:38:25.056Z</updated>
+  <updated>2023-01-09T11:36:25.707Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,21 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>文件目录指令</title>
+    <link href="http://example.com/2023/01/09/%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E6%8C%87%E4%BB%A4/"/>
+    <id>http://example.com/2023/01/09/%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E6%8C%87%E4%BB%A4/</id>
+    <published>2023-01-09T11:34:49.000Z</published>
+    <updated>2023-01-09T11:36:25.707Z</updated>
+    
+    
+    
+    
+    <category term="linux" scheme="http://example.com/categories/linux/"/>
+    
+    
+    <category term="linux基础" scheme="http://example.com/tags/linux%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>帮助指令</title>
     <link href="http://example.com/2023/01/03/%E5%B8%AE%E5%8A%A9%E6%8C%87%E4%BB%A4/"/>
     <id>http://example.com/2023/01/03/%E5%B8%AE%E5%8A%A9%E6%8C%87%E4%BB%A4/</id>
     <published>2023-01-03T15:36:38.000Z</published>
-    <updated>2023-01-03T15:38:25.056Z</updated>
+    <updated>2023-01-09T11:30:48.761Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="帮助指令"><a href="#帮助指令" class="headerlink" title="帮助指令"></a>帮助指令</h1><ul><li><code>man 命令或配置文件</code> : 获取帮助信息</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="帮助指令"><a href="#帮助指令" class="headerlink" title="帮助指令"></a>帮助指令</h1><ul><li><code>man 命令或配置文件</code> : 获取帮助信息</li><li>基本用法: man<a href="功能描述: 获得帮助信息">命令或配置文件</a></li><li>如，man ls  中文版帮助用: cman ls<h2 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h2></li><li>在linux下，隐藏文件是以.开头，选项可以组合使用，如，<code>ls -al</code> ,<code>ls -al /root</code>, 其中的<code>a</code>表示显示所有文件，包括隐藏文件，<code>l</code>表示当行显示，a、l<u>顺序无所谓</u>，且后面可以指定目录</li></ul><h1 id="help指令"><a href="#help指令" class="headerlink" title="help指令"></a>help指令</h1><ul><li>基本语法: <code>help 命令</code> 功能:获得shell内置命令的帮助信息（英文描述）</li></ul>]]></content>
     
     
       
       
     <summary type="html">&lt;h1 id=&quot;帮助指令&quot;&gt;&lt;a href=&quot;#帮助指令&quot; class=&quot;headerlink&quot; title=&quot;帮助指令&quot;&gt;&lt;/a&gt;帮助指令&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;man 命令或配置文件&lt;/code&gt; : 获取帮助信息&lt;/li&gt;
-&lt;/ul&gt;
-</summary>
+&lt;li&gt;基本用法: man&lt;a h</summary>
       
     
     
@@ -100,7 +116,7 @@
     <link href="http://example.com/2023/01/02/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/"/>
     <id>http://example.com/2023/01/02/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</id>
     <published>2023-01-02T13:34:52.000Z</published>
-    <updated>2023-01-03T14:31:18.323Z</updated>
+    <updated>2023-01-09T11:18:24.181Z</updated>
     
     <content type="html"><![CDATA[<h1 id="添加用户"><a href="#添加用户" class="headerlink" title="添加用户"></a>添加用户</h1><h2 id="基本语法-useradd-用户名"><a href="#基本语法-useradd-用户名" class="headerlink" title="基本语法: useradd 用户名"></a>基本语法: <code>useradd 用户名</code></h2><ul><li>当创建用户成功后，会自动的创建和用户同名的家目录 <code>/home/cni30</code></li><li>也可以通过<code>useradd -d</code>指定目录: <code>useradd -d /home/test cni301</code>就会在home下新建一个test文件夹来存放cni30目录</li></ul><h1 id="指定-修改密码"><a href="#指定-修改密码" class="headerlink" title="指定/修改密码"></a>指定/修改密码</h1><h2 id="基本语法-passwd-用户名"><a href="#基本语法-passwd-用户名" class="headerlink" title="基本语法: passwd 用户名"></a>基本语法: <code>passwd 用户名</code></h2><ul><li>不加用户名时，默认给当前登录的账户设置密码</li><li>修改密码就是再来一遍该命令<h3 id="补充-显示当前用户所在的目录-pwd"><a href="#补充-显示当前用户所在的目录-pwd" class="headerlink" title="补充: 显示当前用户所在的目录: pwd"></a>补充: 显示当前用户所在的目录: <code>pwd</code></h3></li></ul><h1 id="删除用户"><a href="#删除用户" class="headerlink" title="删除用户"></a>删除用户</h1><h2 id="基本语法1-userdel-用户名"><a href="#基本语法1-userdel-用户名" class="headerlink" title="基本语法1: userdel 用户名"></a>基本语法1: <code>userdel 用户名</code></h2><ul><li>删除用户名，但保留用户名的家目录<h2 id="基本语法2-userdel-r-用户名"><a href="#基本语法2-userdel-r-用户名" class="headerlink" title="基本语法2: userdel -r 用户名"></a>基本语法2: <code>userdel -r 用户名</code></h2></li><li>删除用户名及其家目录</li><li><u>慎重删除</u></li></ul><h1 id="查询用户信息指令"><a href="#查询用户信息指令" class="headerlink" title="查询用户信息指令"></a>查询用户信息指令</h1><h2 id="基本语法-id-用户名"><a href="#基本语法-id-用户名" class="headerlink" title="基本语法: id 用户名"></a>基本语法: <code>id 用户名</code></h2><h1 id="切换用户"><a href="#切换用户" class="headerlink" title="切换用户"></a>切换用户</h1><h2 id="基本语法-su-切换用户名"><a href="#基本语法-su-切换用户名" class="headerlink" title="基本语法: su - 切换用户名"></a>基本语法: <code>su - 切换用户名</code></h2><h3 id="细节说明"><a href="#细节说明" class="headerlink" title="细节说明"></a>细节说明</h3><ul><li>从权限高的用户切换到权限低的用户，不需要输入密码，反之则需要</li><li>当需要返回原来的用户时，使用exit/logout指令</li></ul><h1 id="查看当前用户-登录用户"><a href="#查看当前用户-登录用户" class="headerlink" title="查看当前用户/登录用户"></a>查看当前用户/登录用户</h1><h2 id="基本语法-whoami-who-am-i"><a href="#基本语法-whoami-who-am-i" class="headerlink" title="基本语法: whoami/who am i"></a>基本语法: <code>whoami/who am i</code></h2><h1 id="用户组"><a href="#用户组" class="headerlink" title="用户组"></a>用户组</h1><blockquote><p>类似于角色，系统可以对有共性的多个用户进行统一的管理</p><p>如果新建用户的时候没有指定组，则会自动创建一个和用户名相同的组并把该用户放进去</p></blockquote><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h3 id="新增组-groupadd-组名"><a href="#新增组-groupadd-组名" class="headerlink" title="新增组: groupadd 组名"></a>新增组: <code>groupadd 组名</code></h3><h3 id="删除组-groupdel-组名"><a href="#删除组-groupdel-组名" class="headerlink" title="删除组: groupdel 组名"></a>删除组: <code>groupdel 组名</code></h3><h3 id="增加用户时直接加上组-useradd-g-用户组-用户名"><a href="#增加用户时直接加上组-useradd-g-用户组-用户名" class="headerlink" title="增加用户时直接加上组: useradd -g 用户组 用户名"></a>增加用户时直接加上组: <code>useradd -g 用户组 用户名</code></h3><h3 id="修改用户的组-usermod-g-用户组-用户名"><a href="#修改用户的组-usermod-g-用户组-用户名" class="headerlink" title="修改用户的组: usermod -g 用户组 用户名"></a>修改用户的组: <code>usermod -g 用户组 用户名</code></h3><h1 id="用户和组的相关文件"><a href="#用户和组的相关文件" class="headerlink" title="用户和组的相关文件"></a>用户和组的相关文件</h1><h2 id="etc-passwd-文件"><a href="#etc-passwd-文件" class="headerlink" title="/etc/passwd 文件"></a>/etc/passwd 文件</h2><ul><li>用户的配置文件，记录用户的各种信息</li><li>用户名:口令:用户标识号:组标识号:注释性描述:主目录:登录Shell<h2 id="etc-shadow-文件"><a href="#etc-shadow-文件" class="headerlink" title="/etc/shadow 文件"></a>/etc/shadow 文件</h2></li><li>口令的配置文件</li><li>每行的含义:登录名:加密口令:最后一次修改时间;最小时间间隔:最大时间间隔:警告时间:不活动时间:失效时间:标志<h2 id="etc-group-文件"><a href="#etc-group-文件" class="headerlink" title="/etc/group 文件"></a>/etc/group 文件</h2></li><li>组(group)的配置文件，记录Linux包含的组的信息</li><li>每行的含义: 组名:口令:组标识号:组内用户列表</li></ul>]]></content>
     
@@ -124,7 +140,7 @@
     <link href="http://example.com/2023/01/02/%E5%85%B3%E6%9C%BA-%E9%87%8D%E5%90%AF-%E7%99%BB%E5%BD%95-%E6%B3%A8%E9%94%80/"/>
     <id>http://example.com/2023/01/02/%E5%85%B3%E6%9C%BA-%E9%87%8D%E5%90%AF-%E7%99%BB%E5%BD%95-%E6%B3%A8%E9%94%80/</id>
     <published>2023-01-01T16:51:42.000Z</published>
-    <updated>2023-01-02T13:47:35.750Z</updated>
+    <updated>2023-01-09T11:16:53.289Z</updated>
     
     <content type="html"><![CDATA[<h1 id="关机-amp-重启命令"><a href="#关机-amp-重启命令" class="headerlink" title="关机 &amp; 重启命令"></a>关机 &amp; 重启命令</h1><ul><li>shudown -h now 立刻关机</li><li>shutdown -h 1 “hello,1分钟后会关机了“</li><li>shutdown “hello,1分钟后会关机了“</li><li>shutdown -r now 现在重新启动计算机</li><li>halt 关机，作用同上</li><li>reboot 现在重启计算机</li><li>sync 把内存的数据同步到磁盘</li></ul><p><strong>不论是重启还是关机，要先执行一遍sync命令</strong></p><h1 id="登录-amp-注销"><a href="#登录-amp-注销" class="headerlink" title="登录 &amp; 注销"></a>登录 &amp; 注销</h1><ul><li>登录时尽量<u>少用</u>root账号登录，因为它是系统管理员，最大的权限，避免操作失误。可以利用普通用户登录，登录后再用<code>su - 用户名</code>命令来切换系统管理员身份</li><li>在提示符下输入<code>logout</code>即可注销用户</li><li>logout注销指令在图形运行级别无效，在<code>运行级别3</code>下有效</li></ul>]]></content>
     
@@ -189,11 +205,11 @@
     <category term="算法模板" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/"/>
     
     
+    <category term="算法模板" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/"/>
+    
     <category term="查找" scheme="http://example.com/tags/%E6%9F%A5%E6%89%BE/"/>
     
     <category term="二分" scheme="http://example.com/tags/%E4%BA%8C%E5%88%86/"/>
-    
-    <category term="算法模板" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/"/>
     
   </entry>
   
@@ -214,11 +230,11 @@
     <category term="算法模板" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/"/>
     
     
-    <category term="算法模板" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/"/>
-    
     <category term="快排" scheme="http://example.com/tags/%E5%BF%AB%E6%8E%92/"/>
     
     <category term="归并" scheme="http://example.com/tags/%E5%BD%92%E5%B9%B6/"/>
+    
+    <category term="算法模板" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/"/>
     
   </entry>
   
