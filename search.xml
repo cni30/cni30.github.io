@@ -8,7 +8,7 @@
       <link href="/2023/01/09/%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E6%8C%87%E4%BB%A4/"/>
       <url>/2023/01/09/%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E6%8C%87%E4%BB%A4/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=" "></a> </h1>]]></content>
       
       
       <categories>
@@ -33,7 +33,7 @@
       <link href="/2023/01/03/%E5%B8%AE%E5%8A%A9%E6%8C%87%E4%BB%A4/"/>
       <url>/2023/01/03/%E5%B8%AE%E5%8A%A9%E6%8C%87%E4%BB%A4/</url>
       
-        <content type="html"><![CDATA[<h1 id="帮助指令"><a href="#帮助指令" class="headerlink" title="帮助指令"></a>帮助指令</h1><ul><li><code>man 命令或配置文件</code> : 获取帮助信息</li><li>基本用法: man<a href="功能描述: 获得帮助信息">命令或配置文件</a></li><li>如，man ls  中文版帮助用: cman ls<h2 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h2></li><li>在linux下，隐藏文件是以.开头，选项可以组合使用，如，<code>ls -al</code> ,<code>ls -al /root</code>, 其中的<code>a</code>表示显示所有文件，包括隐藏文件，<code>l</code>表示当行显示，a、l<u>顺序无所谓</u>，且后面可以指定目录</li></ul><h1 id="help指令"><a href="#help指令" class="headerlink" title="help指令"></a>help指令</h1><ul><li>基本语法: <code>help 命令</code> 功能:获得shell内置命令的帮助信息（英文描述）</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="帮助指令"><a href="#帮助指令" class="headerlink" title="帮助指令"></a>帮助指令</h1><ul><li><code>man 命令或配置文件</code> : 获取帮助信息</li><li>基本用法: <code>man 命令或配置文件</code> (功能描述: 获得帮助信息)</li><li>如，man ls  中文版帮助用: cman ls<h2 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h2></li><li>在linux下，隐藏文件是以.开头，选项可以组合使用，如，<code>ls -al</code> ,<code>ls -al /root</code>, 其中的<code>a</code>表示显示所有文件，包括隐藏文件，<code>l</code>表示当行显示，a、l<u>顺序无所谓</u>，且后面可以指定目录</li></ul><h1 id="help指令"><a href="#help指令" class="headerlink" title="help指令"></a>help指令</h1><ul><li>基本语法: <code>help 命令</code> 功能:获得shell内置命令的帮助信息（英文描述）</li></ul>]]></content>
       
       
       <categories>
@@ -197,11 +197,11 @@
       
         <tags>
             
+            <tag> 算法模板 </tag>
+            
             <tag> 查找 </tag>
             
             <tag> 二分 </tag>
-            
-            <tag> 算法模板 </tag>
             
         </tags>
       
@@ -226,11 +226,11 @@
       
         <tags>
             
-            <tag> 算法模板 </tag>
-            
             <tag> 快排 </tag>
             
             <tag> 归并 </tag>
+            
+            <tag> 算法模板 </tag>
             
         </tags>
       
